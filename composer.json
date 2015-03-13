@@ -1,0 +1,29 @@
+{
+    "name": "mosufy/url-shortener",
+    "description": "Laravel 5 package to generate shortened and unique URLs.",
+    "type" : "laravel-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohd Sufiyan",
+            "email": "mosufy@gmail.com"
+        }
+    ],
+    "keywords" : [
+        "laravel url shortener"
+    ],
+    "homepage" : "https://github.com/mosufy/url-shortener",
+    "require" : {
+        "php" : ">=5.3.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Mosufy\\UrlShortener" : "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "support" : {
+        "source" : "https://github.com/mosufy/url-shortener",
+        "issues" : "https://github.com/mosufy/url-shortener"
+    }
+}
